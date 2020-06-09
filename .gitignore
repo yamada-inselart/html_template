@@ -2,6 +2,7 @@
 Thumbs.db
 .Ds_Store
 .gitignore
+index_demo.php
 
 #directory ignore
 .history/
