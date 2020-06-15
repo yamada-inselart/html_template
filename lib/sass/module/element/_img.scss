@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-// imgBox (画像レスポンシブ)
-.imgBox {
+// imgResponsive (画像レスポンシブ)
+.imgResponsive {
   // 画像の比率は1:1
   $box-h: 315; // PC用サイズ
   $box-w: 420; // PC用サイズ
