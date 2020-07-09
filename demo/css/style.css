@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*--------------------------
+	レイアウト用
+--------------------------*/
+.l-header {
+  width: 100%; }
+.l-header_inner {
+  padding: 15px 0; }
+.l-header_logo {
+  float: left;
+  width: 220px; }
+.l-header_navi {
+  float: right;
+  width: 700px; }
+
+.l-navi > li {
+  float: left;
+  width: 25%; }
+
+
+/*--------------------------
+	module
+--------------------------*/
+
+.header {
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999; }
+
+.logo {
+  font-size: 32px;
+  margin: 0 auto;
+  line-height: 60px;
+  width: 180px; }
+
+.navi_lists > li {
+  text-align: center; }
+.navi_lists > li a {
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 60px;
+  width: 100%; }
+.navi_lists > li:hover a {
+  color: #fff; }
+
+.mv {
+  background: url(../images/mv.jpg) no-repeat center center;
+  height: 780px; }
+.mv_inner {
+  height: 100%; }
+.mv_medias {
+  position: absolute;
+  bottom: -150px;
+  width: 100%; }
+
+.mainTitle {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center; }
+
+.mainText {
+  color: #fff;
+  text-align: center; }
+
+.heading-typeA {
+  font-size: 32px;
+  text-align: center; }
+
+.media {
+  padding: 5px; }
+.media_image {
+  width: 100%; }
+.media_info {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0; }
+.media_date, .media_cat {
+  font-size: 12px; }
+.media_tit {
+  height: 60px; }
+.media-typeA {
+  background: #fff; }
+.media-typeB {
+  background: #f9f9f9; }
+
+.section {
+  padding: 120px 0; }
+.section-typeA {
+  background: #fff; }
+.section-typeB {
+  background: #eee; }
+.section-top {
+  padding: 60px 0; }
+
+.menu {
+  background: #bbb;
+  cursor: pointer;
+  text-align: center;
+  height: 420px;
+  overflow: hidden; }
+.menu .menu_texts01 {
+  color: #fff;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  line-height: 1; }
+.menu .menu_texts01 .menu_title {
+  font-size: 21px; }
+.menu .menu_texts02 {
+  color: #333;
+  opacity: 0; }
+.menu .menu_texts02 .menu_title {
+  font-size: 24px; }
+.menu-01 {
+  background: url(../images/mv.jpg) no-repeat center center; }
+.menu-02 {
+  background: url(../images/mv.jpg) no-repeat center center; }
+.menu-03 {
+  background: url(../images/mv.jpg) no-repeat center center; }
+.menu-half {
+  height: 280px; }
+.menu-ritch * {
+  transition: all 0.5s; }
+.menu-ritch:before {
+  background: rgba(255, 255, 255, 0.5);
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: scale(2.5) translate(-100%, -100%) rotate(-45deg);
+  transition: all 0.5s; }
+.menu-ritch:hover .menu_texts01 {
+  opacity: 0; }
+.menu-ritch:hover .menu_texts02 {
+  opacity: 1; }
+.menu-ritch:hover:before {
+  transform: scale(2.5) translate(0, 0) rotate(-45deg); }
+
+.button {
+  text-align: center;
+  margin: 0 auto;
+  width: 220px; }
+.button a {
+  background: #0091D0;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+  transition: all 0.25s; }
+.button a:after {
+  content: '>';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%); }
+.button:hover a {
+  background: #333; }
+.button-l {
+  width: 480px; }
