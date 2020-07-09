@@ -1,9 +1,11 @@
 #file ignore
 Thumbs.db
 .Ds_Store
+*.log
 .gitignore
 index_demo.php
 
 #directory ignore
 .history/
 .sass-cache/
+node_modules/
