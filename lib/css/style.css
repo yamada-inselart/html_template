@@ -2777,6 +2777,16 @@ img {
 	animation
 --------------------------*/
 /*----------------------------------------------------
+  リサイズ時のtransition停止
+----------------------------------------------------*/
+body.transitionStop * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important; }
+
+/*----------------------------------------------------
   見出し アニメーション
 ----------------------------------------------------*/
 .a-headingA {
