@@ -123,66 +123,6 @@
 				width: 100%;
 			}
 		}
-		&-1-phab {
-			@include max-screen($bp-phab) {
-				width: 8.33%;
-			}
-		}
-		&-2-phab {
-			@include max-screen($bp-phab) {
-				width: 16.667%;
-			}
-		}
-		&-3-phab {
-			@include max-screen($bp-phab) {
-				width: 25%;
-			}
-		}
-		&-4-phab {
-			@include max-screen($bp-phab) {
-				width: 33.333%;
-			}
-		}
-		&-5-phab {
-			@include max-screen($bp-phab) {
-				width: 41.666%;
-			}
-		}
-		&-6-phab {
-			@include max-screen($bp-phab) {
-				width: 50%;
-			}
-		}
-		&-7-phab {
-			@include max-screen($bp-phab) {
-				width: 58.333%;
-			}
-		}
-		&-8-phab {
-			@include max-screen($bp-phab) {
-				width: 66.666%;
-			}
-		}
-		&-9-phab {
-			@include max-screen($bp-phab) {
-				width: 75%;
-			}
-		}
-		&-10-phab {
-			@include max-screen($bp-phab) {
-				width: 83.33%;
-			}
-		}
-		&-11-phab {
-			@include max-screen($bp-phab) {
-				width: 91.666%;
-			}
-		}
-		&-12-phab {
-			@include max-screen($bp-phab) {
-				width: 100%;
-			}
-		}
 		&-1-sp {
 			@include max-screen($bp-sp) {
 				width: 8.33%;
@@ -295,39 +235,6 @@
 	}
 	&.l-gutter-l-tab {
 		@include max-screen($bp-tab) {
-			margin-left: -#{$grid-gutterL/2}px;
-			margin-right: -#{$grid-gutterL/2}px;
-			> .l-grid_item {
-				margin-bottom: #{$grid-gutterL}px;
-				padding-left: #{$grid-gutterL/2}px;
-				padding-right: #{$grid-gutterL/2}px;
-			}
-		}
-	}
-	&.l-gutter-s-phab {
-		@include max-screen($bp-phab) {
-			margin-left: -#{$grid-gutterS/2}px;
-			margin-right: -#{$grid-gutterS/2}px;
-			> .l-grid_item {
-				margin-bottom: #{$grid-gutterS}px;
-				padding-left: #{$grid-gutterS/2}px;
-				padding-right: #{$grid-gutterS/2}px;
-			}
-		}		
-	}
-	&.l-gutter-m-phab {
-		@include max-screen($bp-phab) {
-			margin-left: -#{$grid-gutterM/2}px;
-			margin-right: -#{$grid-gutterM/2}px;
-			> .l-grid_item {
-				margin-bottom: #{$grid-gutterM}px;
-				padding-left: #{$grid-gutterM/2}px;
-				padding-right: #{$grid-gutterM/2}px;
-			}
-		}
-	}
-	&.l-gutter-l-phab {
-		@include max-screen($bp-phab) {
 			margin-left: -#{$grid-gutterL/2}px;
 			margin-right: -#{$grid-gutterL/2}px;
 			> .l-grid_item {

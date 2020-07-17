@@ -95,41 +95,6 @@ $i: 120; // padding marginの最大値
 
 $i: 120; // padding marginの最大値
 @while $i >= 0 {
-  @include max-screen($bp-phab) {
-    .u-mt#{$i}-phab {
-      margin-top: #{$i}px !important;
-    }
-    .u-mb#{$i}-phab {
-      margin-bottom: #{$i}px !important;
-    }
-    .u-ml#{$i}-phab {
-      margin-left: #{$i}px !important;
-    }
-    .u-mr#{$i}-phab {
-      margin-right: #{$i}px !important;
-    }
-    .u-pt#{$i}-phab {
-      padding-top: #{$i}px !important;
-    }
-    .u-pb#{$i}-phab {
-      padding-bottom: #{$i}px !important;
-    }
-    .u-pl#{$i}-phab {
-      padding-left: #{$i}px !important;
-    }
-    .u-pr#{$i}-phab {
-      padding-right: #{$i}px !important;
-    }
-  }
-  @if $i > 80 {
-    $i: $i - 10;
-  } @else {
-    $i: $i - 5;
-  }
-}
-
-$i: 120; // padding marginの最大値
-@while $i >= 0 {
   // スマホ用
   @include max-screen($bp-sp) {
     .u-mt#{$i}-sp {
