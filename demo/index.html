@@ -11,7 +11,7 @@
 
 
 <script src="/lib/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
-<script src="/lib/js/smoothscroll.js"></script>
+<script src="/lib/js/jquery-anchorScroll.js"></script>
 <script src="/lib/js/common.js"></script>
 
 <!--[if lt IE 9]>
@@ -34,10 +34,10 @@
 				<div class="l-header_navi">
 					<nav class="navi">
 						<ul class="navi_lists l-navi clearfix">
-							<li><a href="#">navi01</a></li>
-							<li><a href="#">navi02</a></li>
-							<li><a href="#">navi03</a></li>
-							<li><a href="#">navi04</a></li>
+							<li><a href="#mv">TOP</a></li>
+							<li><a href="#section01">SECTION01</a></li>
+							<li><a href="#section02">SECTION02</a></li>
+							<li><a href="#">DUMMY</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -46,7 +46,7 @@
 		
 		<section class="mainContent">
 		
-			<div class="mv">
+			<div id="mv" class="mv">
 				<div class="mv_inner l-inner l-pos-relative">
 					<div class="mv_texts l-pos-center">
 						<h2 class="mainTitle">mainTitle</h2>
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			
-			<section class="section section-typeB section-top">
+			<section id="section01" class="section section-typeB section-top">
 				<div class="l-inner section_inner l-pos-relative">
 					<div class="section_body">
 						<div class="top_medias u-mb30">
@@ -151,7 +151,7 @@
 				</div>
 			</section>
 			
-			<section class="section section-typeA section-about">
+			<section id="section02" class="section section-typeA section-about">
 				<div class="l-inner section_inner">
 					<div class="section_header l-clearfix u-mb30">
 						<div class="clearfix l-left">
