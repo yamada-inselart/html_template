@@ -29,15 +29,6 @@
 		display: none;
 	}
 }
-// ファブレットのみ
-.is-Phab {
-	@include max-screen($bp-sp) {
-		display: none;
-	}
-	@include min-screen($bp-phab + 1) {
-		display: none;
-	}
-}
 // スマホのみ
 .is-Sp {
 	@include min-screen($bp-sp + 1) {
