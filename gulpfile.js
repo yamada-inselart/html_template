@@ -1,0 +1,39 @@
+const gulp = require("gulp");
+const sass = require("gulp-sass");
+const babel = require("gulp-babel");
+
+// コンパイル対象のファイルを指定
+const srcDir = "src/";
+const src = {
+  sass: srcDir + "sass/style.scss",
+  js: srcDir + "js/*.js",
+};
+
+// 出力先を指定
+const destDir = "assets/";
+const dest = {
+  css: destDir + "css",
+  js: destDir + "js",
+};
+
+// SASS
+gulp.task("sass", () => {
+  return gulp.src(src.sass).pipe(sass()).pipe(gulp.dest(dest.css));
+});
+// Babel
+gulp.task("babel", () => {
+  return gulp
+    .src(src.js)
+    .pipe(
+      babel({
+        presets: ["@babel/preset-env"],
+      })
+    )
+    .pipe(gulp.dest(dest.js));
+});
+
+//タスクの監視
+gulp.task("watch", () => {
+  gulp.watch("src/sass/**/*.scss", gulp.series("sass"));
+  gulp.watch(src.js, gulp.series("babel"));
+});

@@ -17,25 +17,25 @@ $Page = 'top';
   <title></title>
 
   <?php
-  require_once($Root . "/lib/parts/ogp.php");
+  require_once($Root . "/assets/parts/ogp.php");
   echo ogpSouceCode('');
   ?>
-  <link rel="stylesheet" href="/lib/fonts/font_awesome/font-awesome.min.css">
-  <link rel="stylesheet" href="/lib/css/style.css?<?php echo $Timestamp; ?>">
+  <link rel="stylesheet" href="/assets/fonts/font_awesome/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css?<?php echo $Timestamp; ?>">
 
-  <script src="/lib/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
-  <script src="/lib/js/jquery-anchorScroll.js"></script>
-  <script src="/lib/js/common.js?<?php echo $Timestamp; ?>"></script>
+  <script src="/assets/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
+  <script src="/assets/js/jquery-anchorScroll.js"></script>
+  <script src="/assets/js/common.js?<?php echo $Timestamp; ?>"></script>
 
   <!--[if lt IE 9]>
-	<script src="/lib/js/html5shiv.js"></script>
+	<script src="/assets/js/html5shiv.js"></script>
   <![endif]-->
 
 </head>
 
 <body>
   <div class="wrap wrap-<?php echo $Page; ?>">
-    <?php require_once($Root . "/lib/parts/header.php"); ?>
+    <?php require_once($Root . "/assets/parts/header.php"); ?>
 
     <!-- MainVisual -->
     <div class="mv">
@@ -59,7 +59,7 @@ $Page = 'top';
     </section>
     <!-- Main End -->
 
-    <?php require_once($Root . "/lib/parts/footer.php"); ?>
+    <?php require_once($Root . "/assets/parts/footer.php"); ?>
 
   </div>
 </body>
