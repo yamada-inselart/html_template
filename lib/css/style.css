@@ -160,14 +160,32 @@
 
 ----------------------------------------------------*/
 .u-align-l {
-  text-align: left; }
+  text-align: left !important; }
 
 .u-align-c {
-  text-align: center; }
+  text-align: center !important; }
 
 .u-align-r {
-  text-align: right; }
+  text-align: right !important; }
 
+@media screen and (max-width: 1024px) {
+  .u-align-l-tab {
+    text-align: left !important; }
+
+  .u-align-c-tab {
+    text-align: center !important; }
+
+  .u-align-r-tab {
+    text-align: right !important; } }
+@media screen and (max-width: 767px) {
+  .u-align-l-sp {
+    text-align: left !important; }
+
+  .u-align-c-sp {
+    text-align: center !important; }
+
+  .u-align-r-sp {
+    text-align: right !important; } }
 /*--------------------------
 	padding margin 調整用
 --------------------------*/
