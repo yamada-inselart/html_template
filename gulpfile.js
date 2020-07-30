@@ -1,5 +1,7 @@
 const gulp = require("gulp");
 const sass = require("gulp-sass");
+const autoprefixer = require("gulp-autoprefixer");
+const sourcemaps = require("gulp-sourcemaps");
 const babel = require("gulp-babel");
 
 // コンパイル対象のファイルを指定
@@ -18,7 +20,15 @@ const dest = {
 
 // SASS
 gulp.task("sass", () => {
-  return gulp.src(src.sass).pipe(sass()).pipe(gulp.dest(dest.css));
+  return gulp
+    .src(src.sass)
+		.pipe(sourcemaps.init())
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(
+      autoprefixer()
+    )
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest(dest.css));
 });
 // Babel
 gulp.task("babel", () => {
