@@ -9,7 +9,7 @@ sass --watch ./src/sass:./assets/css --style expended
 
 
 ■gulpでのコンパイル ※推奨 
-npx gulp watch
+npx gulp default
 
 ※最初に、下記コマンドにてgulpをインストールする必要があります。 
 npm init -y 
