@@ -3,6 +3,7 @@ Thumbs.db
 .Ds_Store
 *.log
 .gitignore
+style.css.map
 package.json
 package-lock.json
 
