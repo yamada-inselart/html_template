@@ -53,3 +53,5 @@ npm install gulp-connect-php --save-dev　
 
 ※Node.jsがない場合は、下記URLより環境設定をしてください。 
 https://ics.media/entry/3290/ 
+
+※PHPのインストールと環境変数設定も必要です。 
