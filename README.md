@@ -13,7 +13,7 @@ npx gulp default
 
 ※最初に、下記コマンドにてgulpをインストールする必要があります。 
 npm init -y 
-npm install gulp gulp-sass gulp-autoprefixer gulp-sourcemaps gulp-babel @babel/core  @babel/preset-env browser-sync --save-dev 
+npm install gulp gulp-sass gulp-autoprefixer gulp-sourcemaps gulp-babel @babel/core  @babel/preset-env browser-sync gulp-connect-php --save-dev 
 
 下記を、package.jsonに追加してください 
   "browsers": [ 
@@ -46,6 +46,9 @@ npm install --save-dev gulp-babel @babel/core @babel/preset-env
 
 ・browser-syncのインストール 
 npm install browser-sync --save-dev 
+
+・gulp-connect-phpのインストール
+npm install gulp-connect-php --save-dev　
 
 
 ※Node.jsがない場合は、下記URLより環境設定をしてください。 

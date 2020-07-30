@@ -4,6 +4,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const sourcemaps = require("gulp-sourcemaps");
 const babel = require("gulp-babel");
 const browserSync = require('browser-sync');
+const php = require('gulp-connect-php');
 
 // コンパイル対象のファイルを指定
 const srcDir = "src/";
@@ -43,14 +44,21 @@ gulp.task("babel", () => {
     .pipe(gulp.dest(dest.js));
 });
 
+// phpサーバー起動
+gulp.task("php", () => {
+  php.server({
+    base: './',
+    port: 3010
+  });
+});
+
 // ブラウザの自動リロード
 gulp.task("server", () => {
   browserSync({
     files: ["./**"],
+    proxy: 'localhost:3010',
     port: 3010,
-    server: {
-      baseDir: "./"
-    }
+    open: 'external'
   });
 });
 
@@ -62,4 +70,4 @@ gulp.task("watch", () => {
 });
 
 
-gulp.task("default",gulp.series(gulp.parallel(['server', 'watch'])) );
+gulp.task("default",gulp.series(gulp.parallel(['php', 'server', 'watch'])) );
