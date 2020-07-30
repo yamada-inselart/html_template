@@ -93,7 +93,8 @@ input[type="radio"] {
   margin: 0 2px 0 0;
 }
 select {
-  appearance: none;
+	appearance: none;
+	background: transparent url('../images/arrow-select.png') no-repeat center right 7.5px/15px 15px;
   border: 1px solid rgba(0, 0, 0, 0.16);
   border-radius: 0;
   color: inherit;
