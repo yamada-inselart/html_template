@@ -48,28 +48,22 @@
 	module
 --------------------------*/
 
-/* element */
-@import './module/element/btn.scss';
-@import './module/element/heading.scss';
-@import './module/element/img.scss';
-@import './module/element/label.scss';
-@import './module/element/txt.scss';
-@import './module/element/form.scss';
-@import './module/element/other.scss';
-
-/* block */
-@import './module/block/header.scss';
-@import './module/block/footer.scss';
-@import './module/block/mv.scss';
-@import './module/block/menu.scss';
-@import './module/block/card.scss';
-@import './module/block/media.scss';
-@import './module/block/list.scss';
-@import './module/block/table.scss';
-@import './module/block/cta.scss';
-@import './module/block/post.scss';
-@import './module/block/form.scss';
-@import './module/block/other.scss';
+/* common */
+@import './module/common/header.scss';
+@import './module/common/footer.scss';
+@import './module/common/mv.scss';
+@import './module/common/menu.scss';
+@import './module/common/form.scss';
+@import './module/common/table.scss';
+@import './module/common/media.scss';
+@import './module/common/post.scss';
+@import './module/common/heading.scss';
+@import './module/common/txt.scss';
+@import './module/common/label.scss';
+@import './module/common/img.scss';
+@import './module/common/btn.scss';
+@import './module/common/wp.scss';
+@import './module/common/other.scss';
 
 /* page */
 @import './module/page/top.scss';
@@ -87,15 +81,4 @@
 @import './state/state-utility.scss';
 @import './state/state.scss';
 
-
-/*--------------------------
-	theme
---------------------------*/
-@import './theme/theme.scss';
-
-
-/*--------------------------
-	wordpress
---------------------------*/
-@import './wp/wp.scss';
 
