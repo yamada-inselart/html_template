@@ -3,6 +3,7 @@ const sass = require("gulp-sass");
 const autoprefixer = require("gulp-autoprefixer");
 const sourcemaps = require("gulp-sourcemaps");
 const babel = require("gulp-babel");
+const browserSync = require('browser-sync');
 
 // コンパイル対象のファイルを指定
 const srcDir = "src/";
@@ -42,8 +43,23 @@ gulp.task("babel", () => {
     .pipe(gulp.dest(dest.js));
 });
 
+// ブラウザの自動リロード
+gulp.task("server", () => {
+  browserSync({
+    files: ["./**"],
+    port: 3010,
+    server: {
+      baseDir: "./"
+    }
+  });
+});
+
+
 //タスクの監視
 gulp.task("watch", () => {
   gulp.watch("src/sass/**/*.scss", gulp.series("sass"));
   gulp.watch(src.js, gulp.series("babel"));
 });
+
+
+gulp.task("default",gulp.series(gulp.parallel(['server', 'watch'])) );
