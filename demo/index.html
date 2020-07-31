@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<meta charset="utf-8">
-<title>DEMO</title>
-<meta name="description" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>HTML TEMPLATE DEMO</title>
+	<meta name="description" content="">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- fontawesome -->
-<link rel="stylesheet" href="/assets/css/style.css">
-<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
 
 
-<script src="/assets/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
-<script src="/assets/js/jquery-anchorScroll.js"></script>
-<script src="/assets/js/common.js"></script>
+	<script src="/assets/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
+	<script src="/assets/js/jquery-anchorScroll.js"></script>
+	<script src="/assets/js/common.js"></script>
 
-<!--[if lt IE 9]>
+	<script>
+		$(function () {
+			var wH = $(window).height();
+			$(".js-mv").css("height", wH + "px");
+			$(window).on("resize", function () {
+				$(".js-mv").css("height", wH + "px");
+			});
+		});
+	</script>
+
+	<!--[if lt IE 9]>
 <script src="/assets/js/html5shiv.js"></script>
 <![endif]-->
 
@@ -23,38 +36,38 @@
 
 <body>
 	<div class="wrap">
-	
+
 		<header class="l-header header">
 			<div class="l-inner l-header_inner l-clearfix">
 				<div class="l-header_logo">
 					<h1 class="logo">
-						logo
+						DEMO
 					</h1>
 				</div>
 				<div class="l-header_navi">
 					<nav class="navi">
 						<ul class="navi_lists l-navi clearfix">
 							<li><a href="#mv">TOP</a></li>
-							<li><a href="#section01">SECTION01</a></li>
-							<li><a href="#section02">SECTION02</a></li>
+							<li><a href="#section01">TOPICS</a></li>
+							<li><a href="#section02">LINKS</a></li>
 							<li><a href="#">DUMMY</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</header>
-		
+
 		<section class="mainContent">
-		
-			<div id="mv" class="mv">
+
+			<div id="mv" class="mv js-mv">
 				<div class="mv_inner l-inner l-pos-relative">
 					<div class="mv_texts l-pos-center">
-						<h2 class="mainTitle">mainTitle</h2>
-						<p class="mainText">mainText mainText mainText</p>
-					</div>					
+						<h2 class="mainTitle">HTML TEMPLATE</h2>
+						<p class="mainText">Version 2.1.0</p>
+					</div>
 				</div>
 			</div>
-			
+
 			<section id="section01" class="section section-typeB section-top">
 				<div class="l-inner section_inner l-pos-relative">
 					<div class="section_body">
@@ -68,35 +81,15 @@
 											</div>
 											<div class="media_info l-clearfix">
 												<p class="media_date l-left">
-													2017.08.24
+													2020.07.31
 												</p>
 												<p class="media_cat l-right">
-													Category
+													Release
 												</p>
 											</div>
 										</header>
 										<div class="media_body">
-											<h1 class="media_tit">タイトルが入ります。</h1>
-										</div>
-									</article>
-								</li>
-								<li class="l-grid_item l-grid_item-3">
-									<article class="media media-typeB">
-										<header class="media_header u-mb5">
-											<div class="media_image u-mb5">
-												<img src="./images/mv.jpg" alt="">
-											</div>
-											<div class="media_info l-clearfix">
-												<p class="media_date l-left">
-													2017.08.24
-												</p>
-												<p class="media_cat l-right">
-													Category
-												</p>
-											</div>
-										</header>
-										<div class="media_body">
-											<h1 class="media_tit">タイトルが入ります。</h1>
+											<h1 class="media_tit">HTML TEMPLATE Version 2.1.0をリリースしました。</h1>
 										</div>
 									</article>
 								</li>
@@ -108,15 +101,15 @@
 											</div>
 											<div class="media_info l-clearfix">
 												<p class="media_date l-left">
-													2017.08.24
+													2020.07.21
 												</p>
 												<p class="media_cat l-right">
-													Category
+													News
 												</p>
 											</div>
 										</header>
 										<div class="media_body">
-											<h1 class="media_tit">タイトルが入ります。</h1>
+											<h1 class="media_tit">Sassのコンパイル方法がかわります。（Gulp対応予定）</h1>
 										</div>
 									</article>
 								</li>
@@ -128,15 +121,35 @@
 											</div>
 											<div class="media_info l-clearfix">
 												<p class="media_date l-left">
-													2017.08.24
+													2020.07.27
 												</p>
 												<p class="media_cat l-right">
-													Category
+													News
 												</p>
 											</div>
 										</header>
 										<div class="media_body">
-											<h1 class="media_tit">タイトルが入ります。</h1>
+											<h1 class="media_tit">CSSスタイルガイドを更新しました。</h1>
+										</div>
+									</article>
+								</li>
+								<li class="l-grid_item l-grid_item-3">
+									<article class="media media-typeB">
+										<header class="media_header u-mb5">
+											<div class="media_image u-mb5">
+												<img src="./images/mv.jpg" alt="">
+											</div>
+											<div class="media_info l-clearfix">
+												<p class="media_date l-left">
+													2020.07.27
+												</p>
+												<p class="media_cat l-right">
+													Release
+												</p>
+											</div>
+										</header>
+										<div class="media_body">
+											<h1 class="media_tit">HTML TEMPLATE Version 2.0.2をリリースしました。</h1>
 										</div>
 									</article>
 								</li>
@@ -144,48 +157,48 @@
 						</div>
 						<div class="button">
 							<p class="button_text">
-								<a href="#">button</a>
+								<a href="#">Download Ver 2.1.0</a>
 							</p>
-						</div>				
+						</div>
 					</div>
 				</div>
 			</section>
-			
+
 			<section id="section02" class="section section-typeA section-about">
 				<div class="l-inner section_inner">
 					<div class="section_header l-clearfix u-mb30">
 						<div class="clearfix l-left">
 							<h3 class="heading-typeA l-left">
-								heading
+								LINKS
 							</h3>
 						</div>
 						<div class="l-right">
 							<div class="button">
 								<p class="button_text">
-									<a href="#">button</a>
+									<a href="#">Download Ver 2.1.0</a>
 								</p>
 							</div>
-						</div>	
+						</div>
 					</div>
 					<div class="section_body">
 						<ul class="l-grid l-gutter-m">
 							<li class="l-grid_item l-grid_item-12 u-mb30">
 								<section class="menu menu-01 menu-ritch l-pos-relative">
-									
+
 									<div class="menu_texts01">
-										<p class="menu_title">menu_title</p>
+										<p class="menu_title">CSSスタイルガイド</p>
 									</div>
-									
+
 									<div class="menu_inner l-pos-center">
 										<div class="menu_texts02">
 											<header class="menu_header">
 												<h4 class="menu_title">
-													menu_title
+													CSSスタイルガイド
 												</h4>
 											</header>
 											<div class="menu_body">
 												<p class="menu_text01">
-													menu_text01 menu_text01 menu_text01
+													本テンプレートのCSSスタイルガイドにリンクします。
 												</p>
 											</div>
 										</div>
@@ -194,21 +207,21 @@
 							</li>
 							<li class="l-grid_item l-grid_item-6 u-mb30">
 								<section class="menu menu-02 menu-half menu-ritch l-pos-relative">
-									
+
 									<div class="menu_texts01">
-										<p class="menu_title">menu_title</p>
+										<p class="menu_title">GitHub</p>
 									</div>
-									
+
 									<div class="menu_inner l-pos-center">
 										<div class="menu_texts02">
 											<header class="menu_header">
 												<h4 class="menu_title">
-													menu_title
+													GitHub
 												</h4>
 											</header>
 											<div class="menu_body">
 												<p class="menu_text01">
-													menu_text01 menu_text01
+													GitHubページにリンクします。
 												</p>
 											</div>
 										</div>
@@ -217,21 +230,21 @@
 							</li>
 							<li class="l-grid_item l-grid_item-6 u-mb30">
 								<section class="menu menu-03 menu-half menu-ritch l-pos-relative">
-								
+
 									<div class="menu_texts01">
-										<p class="menu_title">menu_title</p>
+										<p class="menu_title">Coming soon...</p>
 									</div>
-									
+
 									<div class="menu_inner l-pos-center">
 										<div class="menu_texts02">
 											<header class="menu_header">
 												<h4 class="menu_title">
-													menu_title
+													Coming soon...
 												</h4>
 											</header>
 											<div class="menu_body">
 												<p class="menu_text01">
-													menu_text01 menu_text01
+													
 												</p>
 											</div>
 										</div>
@@ -242,9 +255,16 @@
 					</div>
 				</div>
 			</section>
-			
+
 		</section>
-		
+
+		<footer id="footer" class="footer">
+			<p class="copy">
+				<small>Copyright &copy; 2020 Yoshiki Yamada Inc. All Rights Reserved.</small>
+			</p>
+		</footer>
+
 	</div>
 </body>
+
 </html>

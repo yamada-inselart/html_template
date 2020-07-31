@@ -6,7 +6,7 @@
 .l-header {
   width: 100%; }
 .l-header_inner {
-  padding: 15px 0; }
+  padding: 5px 0; }
 .l-header_logo {
   float: left;
   width: 220px; }
@@ -24,8 +24,8 @@
 --------------------------*/
 
 .header {
-  background: rgba(255, 255, 255, 0.6);
-  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999; }
@@ -49,7 +49,9 @@
 
 .mv {
   background: url(../images/mv.jpg) no-repeat center center;
-  height: 780px; }
+  background-size: cover;
+  max-height: 1080px;
+  min-height: 640px; }
 .mv_inner {
   height: 100%; }
 .mv_medias {
@@ -72,7 +74,7 @@
   text-align: center; }
 
 .media {
-  padding: 5px; }
+  padding: 10px 8px; }
 .media_image {
   width: 100%; }
 .media_info {
@@ -92,9 +94,7 @@
 .section-typeA {
   background: #fff; }
 .section-typeB {
-  background: #eee; }
-.section-top {
-  padding: 60px 0; }
+  background: #ebf3fa; }
 
 .menu {
   background: #bbb;
@@ -143,9 +143,9 @@
 .button {
   text-align: center;
   margin: 0 auto;
-  width: 220px; }
+  width: 240px; }
 .button a {
-  background: #0091D0;
+  background: #22B573;
   color: #fff;
   display: inline-block;
   padding: 15px 0;
@@ -153,12 +153,21 @@
   width: 100%;
   transition: all 0.25s; }
 .button a:after {
-  content: '>';
+  content: '\f019';
+  font-family: 'FontAwesome';
   position: absolute;
   top: 50%;
-  right: 15px;
+  right: 20px;
   transform: translate(0, -50%); }
 .button:hover a {
   background: #333; }
 .button-l {
   width: 480px; }
+
+.footer {
+  background: #f9f9f9;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 0;
+}
