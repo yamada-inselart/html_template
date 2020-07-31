@@ -11,3 +11,4 @@ package-lock.json
 .history/
 .sass-cache/
 node_modules/
+styleGuide/
