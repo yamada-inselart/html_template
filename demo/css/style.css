@@ -167,7 +167,7 @@
   background: url(../images/mv.jpg) no-repeat center center;
   background-size: cover;
 }
-.menu-01 .menu_texts01 {
+.menu .menu_texts01.menu_texts01-w {
   color: #fff;
 }
 .menu-half {
@@ -205,7 +205,7 @@
   color: #fff;
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  padding: 15px 0;
+  padding: 15px 10px 15px 0;
   position: relative;
   width: 100%;
   transition: all 0.25s;
