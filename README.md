@@ -55,3 +55,9 @@ npm install gulp-connect-php --save-dev　
 https://ics.media/entry/3290/ 
 
 ※PHPのインストールと環境変数設定も必要です。 
+
+
+
+Copyright (c) 2020 Yoshiki Yamada
+Released under the MIT license
+https://opensource.org/licenses/mit-license.php
