@@ -1,8 +1,8 @@
 # html_template
-ver2.1.0 
+ver3.0.0 
 
 【Sassのコンパイルについて】 
-※ver2.1.0より、Sassのコンパイル方法が変わりました。
+※ver3.0.0より、Sassのコンパイル方法が変わりました。
 
 ■Rubyでのコンパイル 
 sass --watch ./src/sass:./assets/css --style expended 
