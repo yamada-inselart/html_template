@@ -3,8 +3,13 @@ Thumbs.db
 .Ds_Store
 *.log
 .gitignore
+style.css.map
+package.json
+package-lock.json
 
 #directory ignore
 .history/
 .sass-cache/
 node_modules/
+styleGuide/
+zip/
