@@ -4,7 +4,6 @@ Thumbs.db
 *.log
 .gitignore
 style.css.map
-package.json
 package-lock.json
 
 #directory ignore
