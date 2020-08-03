@@ -12,17 +12,7 @@ sass --watch ./src/sass:./assets/css --style expended
 npx gulp default
 
 ※最初に、下記コマンドにてgulpをインストールする必要があります。 
-npm init -y 
-npm install gulp gulp-sass gulp-autoprefixer gulp-sourcemaps gulp-babel @babel/core  @babel/preset-env browser-sync gulp-connect-php --save-dev 
-
-下記を、package.jsonに追加してください 
-  "browsers": [ 
-    "last 3 versions", 
-    "ie >= 9", 
-    "Android >= 4", 
-    "ios_saf >= 8" 
-  ] 
-ここまで 
+npm install
 
 
 ---コマンドについて--- 
