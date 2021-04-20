@@ -2,9 +2,6 @@
 $Root = $_SERVER['DOCUMENT_ROOT'];
 $Timestamp = time();
 
-// 初めにココを設定
-$Page = 'top';
-
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -34,7 +31,7 @@ $Page = 'top';
 </head>
 
 <body>
-  <div class="wrap wrap-<?php echo $Page; ?>">
+  <div class="wrap">
     <?php require_once($Root . "/assets/parts/header.php"); ?>
 
     <!-- MainVisual -->
@@ -46,7 +43,7 @@ $Page = 'top';
     <!-- MainVisual END -->
 
     <!-- Main -->
-    <section class="main main-<?php echo $Page; ?>">
+    <section class="main">
 
       <!-- Section01 -->
       <section class="topSec topSec-01">
