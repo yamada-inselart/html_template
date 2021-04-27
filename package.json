@@ -1,0 +1,39 @@
+{
+  "name": "html_template",
+  "version": "1.0.0",
+  "description": "ver3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p start/*",
+    "start/build": "watch \"npm run build\" ./src/sass",
+    "start/browsersync": "browser-sync start --proxy 127.0.0.1:3000 --files=\"./**/*.html,./**/*.php,./**/*.css,./**/*.js\"",
+    "build": "npm-run-all -p build/*",
+    "build/sass": "sass --watch src/sass/style.scss assets/css/style.css",
+    "build/postcss": "postcss assets/css/style.css -u autoprefixer -o assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamada-inselart/html_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamada-inselart/html_template/issues"
+  },
+  "homepage": "https://github.com/yamada-inselart/html_template#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "cssnano": "^5.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.11",
+    "watch": "^1.0.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie 9"
+  ]
+}
