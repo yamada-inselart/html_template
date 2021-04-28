@@ -36,7 +36,7 @@ $Timestamp = time();
 
     <!-- MainVisual -->
     <div class="mv">
-      <div class="mv_inner">
+      <div class="mv__inner">
 
       </div>
     </div>
@@ -46,8 +46,8 @@ $Timestamp = time();
     <section class="main">
 
       <!-- Section01 -->
-      <section class="topSec topSec-01">
-        <div class="topSec_inner">
+      <section class="top-sec top-sec-01">
+        <div class="top-sec__inner">
 
         </div>
       </section>

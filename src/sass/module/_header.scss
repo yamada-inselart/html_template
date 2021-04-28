@@ -2,14 +2,14 @@
 
 // header
 .header {
-	.header_inner {
+	.header__inner {
 	}
 	@include max-screen($bp-tab) {
-		.header_inner {
+		.header__inner {
 		}
 	}
 	@include max-screen($bp-sp) {
-		.header_inner {
+		.header__inner {
 		}
 	}
 }

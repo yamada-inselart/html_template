@@ -1,17 +1,17 @@
 @charset "utf-8";
 
-.btnA {
+.btn-A {
 
 }
 
 // ハンバーガーメニューボタン
-.btnHmb {
+.btn-hmb {
   $color: #000;
 
   border: 2px solid $color;
   display: inline-block;
   padding: 10px 8px;
-  .btnHmb_trigger {
+  .btn-hmb__trigger {
     display: block;
     transition: all 0.4s;
     box-sizing: border-box;
@@ -56,7 +56,7 @@
       }
     }
   }
-  .btnHmb_txt {
+  .btn-hmb__txt {
     color: $color;
     font-size: 10px;
     margin-top: 1px;

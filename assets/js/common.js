@@ -68,7 +68,7 @@
   SpMenuObject.prototype = {
     initialize: function initialize() {
       this.$_menuBtn = $("#js-spMenuBtn");
-      this.$_menu = $("#js-responsive_menu");
+      this.$_menu = $("#js-responsive-menu");
       this.state = 0;
       this.handleEvents();
     },
