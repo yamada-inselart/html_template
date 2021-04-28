@@ -10,6 +10,19 @@
 /*--------------------------
 	フォントの設定
 --------------------------*/
+// ゴシック(ベーシック)
+$gothic-A: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN", Osaka, メイリオ,
+  Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+
+// ゴシック(今風)
+$gothic-B: "Noto Sans Japanese", "ヒラギノ角ゴ ProN",
+  "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+  "MS PGothic", sans-serif;
+
+// 明朝
+$mincho-A: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E",
+  "ＭＳ Ｐ明朝", serif;
+
 $font-size-px: 16; //基本フォントサイズ
 $font-size-rem: $font-size-px / 10; //基本フォントサイズ(rem)
 $font-family: $gothic-B; //基本フォントファミリー(よく使うのはfontfamily.scssに定義されているので、そちらを参照してください。)

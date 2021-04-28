@@ -8,31 +8,26 @@
 ----------------------------------------------------*/
 
 /*--------------------------
-	setting
+	libs
 --------------------------*/
-@import './setting/font-family.scss';
-@import './setting/setting.scss';
+@import './lib/vars.scss';
+@import './lib/functions.scss';
+@import './lib/mixin.scss';
 
 
 /*--------------------------
-	libs
+	Base
 --------------------------*/
-@import './lib/functions.scss';
-@import './lib/mixin.scss';
+@import './base/font-family.scss';
+@import './base/html5doctor.scss';
+@import './base/reset.scss';
+@import './base/base.scss';
 
 
 /*--------------------------
 	utility
 --------------------------*/
 @import './utility/utility.scss';
-
-
-/*--------------------------
-	Base
---------------------------*/
-@import './base/html5doctor.scss';
-@import './base/reset.scss';
-@import './base/base.scss';
 
 
 /*--------------------------

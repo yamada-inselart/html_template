@@ -38,16 +38,3 @@
   src: url("../fonts/noto_sans/NotoSansCJKjp-Black.woff") format("woff"),
     url("../fonts/noto_sans/NotoSansCJKjp-Black.ttf") format("truetype");
 }
-
-// ゴシック(ベーシック)
-$gothic-A: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN", Osaka, メイリオ,
-  Meiryo, "ＭＳ Ｐゴシック", sans-serif;
-
-// ゴシック(今風)
-$gothic-B: "Noto Sans Japanese", "ヒラギノ角ゴ ProN",
-  "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
-  "MS PGothic", sans-serif;
-
-// 明朝
-$mincho-A: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E",
-  "ＭＳ Ｐ明朝", serif;
