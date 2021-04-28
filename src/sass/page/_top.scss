@@ -9,29 +9,9 @@
 
 	階層はルートクラスより、三階層までが基本
 	【例】
-	.topSec .topSec_ttl span {		
+	.top-sec .top-sec__ttl span {		
 	}
 	※CSSに展開した場合
 
 ----------------------------------------------------*/
 
-.topSec {
-  .topSec_wrapper {
-  }
-  .topSec_inner {
-  }
-  .topSec_header {
-  }
-  .topSec_footer {
-  }
-  .topSec_body {
-  }
-  .topSec_ttl {
-  }
-  .topSec_txt {
-  }
-  @include max-screen($bp-tab) {
-  }
-  @include max-screen($bp-sp) {
-  }
-}
