@@ -3251,280 +3251,280 @@ body.transitionStop * {
 /*----------------------------------------------------
   見出し アニメーション
 ----------------------------------------------------*/
-.a-headingA {
+.a-heading-A {
   opacity: 0;
   -webkit-transition: 0.65s;
   transition: 0.65s;
 }
-.a-headingA.active {
+.a-heading-A.active {
   opacity: 1;
 }
 
 /*----------------------------------------------------
-  anim-Txts
+  anim-txts
 */
 /*----------------------------------------------------
   使用方法：
 
-<h1 class="as a-anim-Txts">
-  <span class="anim-Txt anim-Txt-0">テ</span>
-  <span class="anim-Txt anim-Txt-1">キ</span>
-  <span class="anim-Txt anim-Txt-2">ス</span>
-  <span class="anim-Txt anim-Txt-3">ト</span>
+<h1 class="as a-anim-txts">
+  <span class="anim-txt anim-txt-0">テ</span>
+  <span class="anim-txt anim-txt-1">キ</span>
+  <span class="anim-txt anim-txt-2">ス</span>
+  <span class="anim-txt anim-txt-3">ト</span>
 </h1>
 ----------------------------------------------------*/
-.a-anim-Txts .anim-Txt {
+.a-anim-txts .anim-txt {
   display: inline-block;
   opacity: 0;
   -webkit-transform: translate(60px, 0) skewX(-30deg) scale(1, 1);
   -ms-transform: translate(60px, 0) skewX(-30deg) scale(1, 1);
       transform: translate(60px, 0) skewX(-30deg) scale(1, 1);
 }
-.a-anim-Txts .anim-Txt.anim-Txt-0 {
+.a-anim-txts .anim-txt.anim-txt-0 {
   -webkit-transition: 0.65s 0s;
   transition: 0.65s 0s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-1 {
+.a-anim-txts .anim-txt.anim-txt-1 {
   -webkit-transition: 0.65s 0.0625s;
   transition: 0.65s 0.0625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-2 {
+.a-anim-txts .anim-txt.anim-txt-2 {
   -webkit-transition: 0.65s 0.125s;
   transition: 0.65s 0.125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-3 {
+.a-anim-txts .anim-txt.anim-txt-3 {
   -webkit-transition: 0.65s 0.1875s;
   transition: 0.65s 0.1875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-4 {
+.a-anim-txts .anim-txt.anim-txt-4 {
   -webkit-transition: 0.65s 0.25s;
   transition: 0.65s 0.25s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-5 {
+.a-anim-txts .anim-txt.anim-txt-5 {
   -webkit-transition: 0.65s 0.3125s;
   transition: 0.65s 0.3125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-6 {
+.a-anim-txts .anim-txt.anim-txt-6 {
   -webkit-transition: 0.65s 0.375s;
   transition: 0.65s 0.375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-7 {
+.a-anim-txts .anim-txt.anim-txt-7 {
   -webkit-transition: 0.65s 0.4375s;
   transition: 0.65s 0.4375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-8 {
+.a-anim-txts .anim-txt.anim-txt-8 {
   -webkit-transition: 0.65s 0.5s;
   transition: 0.65s 0.5s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-9 {
+.a-anim-txts .anim-txt.anim-txt-9 {
   -webkit-transition: 0.65s 0.5625s;
   transition: 0.65s 0.5625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-10 {
+.a-anim-txts .anim-txt.anim-txt-10 {
   -webkit-transition: 0.65s 0.625s;
   transition: 0.65s 0.625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-11 {
+.a-anim-txts .anim-txt.anim-txt-11 {
   -webkit-transition: 0.65s 0.6875s;
   transition: 0.65s 0.6875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-12 {
+.a-anim-txts .anim-txt.anim-txt-12 {
   -webkit-transition: 0.65s 0.75s;
   transition: 0.65s 0.75s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-13 {
+.a-anim-txts .anim-txt.anim-txt-13 {
   -webkit-transition: 0.65s 0.8125s;
   transition: 0.65s 0.8125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-14 {
+.a-anim-txts .anim-txt.anim-txt-14 {
   -webkit-transition: 0.65s 0.875s;
   transition: 0.65s 0.875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-15 {
+.a-anim-txts .anim-txt.anim-txt-15 {
   -webkit-transition: 0.65s 0.9375s;
   transition: 0.65s 0.9375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-16 {
+.a-anim-txts .anim-txt.anim-txt-16 {
   -webkit-transition: 0.65s 1s;
   transition: 0.65s 1s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-17 {
+.a-anim-txts .anim-txt.anim-txt-17 {
   -webkit-transition: 0.65s 1.0625s;
   transition: 0.65s 1.0625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-18 {
+.a-anim-txts .anim-txt.anim-txt-18 {
   -webkit-transition: 0.65s 1.125s;
   transition: 0.65s 1.125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-19 {
+.a-anim-txts .anim-txt.anim-txt-19 {
   -webkit-transition: 0.65s 1.1875s;
   transition: 0.65s 1.1875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-20 {
+.a-anim-txts .anim-txt.anim-txt-20 {
   -webkit-transition: 0.65s 1.25s;
   transition: 0.65s 1.25s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-21 {
+.a-anim-txts .anim-txt.anim-txt-21 {
   -webkit-transition: 0.65s 1.3125s;
   transition: 0.65s 1.3125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-22 {
+.a-anim-txts .anim-txt.anim-txt-22 {
   -webkit-transition: 0.65s 1.375s;
   transition: 0.65s 1.375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-23 {
+.a-anim-txts .anim-txt.anim-txt-23 {
   -webkit-transition: 0.65s 1.4375s;
   transition: 0.65s 1.4375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-24 {
+.a-anim-txts .anim-txt.anim-txt-24 {
   -webkit-transition: 0.65s 1.5s;
   transition: 0.65s 1.5s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-25 {
+.a-anim-txts .anim-txt.anim-txt-25 {
   -webkit-transition: 0.65s 1.5625s;
   transition: 0.65s 1.5625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-26 {
+.a-anim-txts .anim-txt.anim-txt-26 {
   -webkit-transition: 0.65s 1.625s;
   transition: 0.65s 1.625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-27 {
+.a-anim-txts .anim-txt.anim-txt-27 {
   -webkit-transition: 0.65s 1.6875s;
   transition: 0.65s 1.6875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-28 {
+.a-anim-txts .anim-txt.anim-txt-28 {
   -webkit-transition: 0.65s 1.75s;
   transition: 0.65s 1.75s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-29 {
+.a-anim-txts .anim-txt.anim-txt-29 {
   -webkit-transition: 0.65s 1.8125s;
   transition: 0.65s 1.8125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-30 {
+.a-anim-txts .anim-txt.anim-txt-30 {
   -webkit-transition: 0.65s 1.875s;
   transition: 0.65s 1.875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-31 {
+.a-anim-txts .anim-txt.anim-txt-31 {
   -webkit-transition: 0.65s 1.9375s;
   transition: 0.65s 1.9375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-32 {
+.a-anim-txts .anim-txt.anim-txt-32 {
   -webkit-transition: 0.65s 2s;
   transition: 0.65s 2s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-33 {
+.a-anim-txts .anim-txt.anim-txt-33 {
   -webkit-transition: 0.65s 2.0625s;
   transition: 0.65s 2.0625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-34 {
+.a-anim-txts .anim-txt.anim-txt-34 {
   -webkit-transition: 0.65s 2.125s;
   transition: 0.65s 2.125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-35 {
+.a-anim-txts .anim-txt.anim-txt-35 {
   -webkit-transition: 0.65s 2.1875s;
   transition: 0.65s 2.1875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-36 {
+.a-anim-txts .anim-txt.anim-txt-36 {
   -webkit-transition: 0.65s 2.25s;
   transition: 0.65s 2.25s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-37 {
+.a-anim-txts .anim-txt.anim-txt-37 {
   -webkit-transition: 0.65s 2.3125s;
   transition: 0.65s 2.3125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-38 {
+.a-anim-txts .anim-txt.anim-txt-38 {
   -webkit-transition: 0.65s 2.375s;
   transition: 0.65s 2.375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-39 {
+.a-anim-txts .anim-txt.anim-txt-39 {
   -webkit-transition: 0.65s 2.4375s;
   transition: 0.65s 2.4375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-40 {
+.a-anim-txts .anim-txt.anim-txt-40 {
   -webkit-transition: 0.65s 2.5s;
   transition: 0.65s 2.5s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-41 {
+.a-anim-txts .anim-txt.anim-txt-41 {
   -webkit-transition: 0.65s 2.5625s;
   transition: 0.65s 2.5625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-42 {
+.a-anim-txts .anim-txt.anim-txt-42 {
   -webkit-transition: 0.65s 2.625s;
   transition: 0.65s 2.625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-43 {
+.a-anim-txts .anim-txt.anim-txt-43 {
   -webkit-transition: 0.65s 2.6875s;
   transition: 0.65s 2.6875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-44 {
+.a-anim-txts .anim-txt.anim-txt-44 {
   -webkit-transition: 0.65s 2.75s;
   transition: 0.65s 2.75s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-45 {
+.a-anim-txts .anim-txt.anim-txt-45 {
   -webkit-transition: 0.65s 2.8125s;
   transition: 0.65s 2.8125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-46 {
+.a-anim-txts .anim-txt.anim-txt-46 {
   -webkit-transition: 0.65s 2.875s;
   transition: 0.65s 2.875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-47 {
+.a-anim-txts .anim-txt.anim-txt-47 {
   -webkit-transition: 0.65s 2.9375s;
   transition: 0.65s 2.9375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-48 {
+.a-anim-txts .anim-txt.anim-txt-48 {
   -webkit-transition: 0.65s 3s;
   transition: 0.65s 3s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-49 {
+.a-anim-txts .anim-txt.anim-txt-49 {
   -webkit-transition: 0.65s 3.0625s;
   transition: 0.65s 3.0625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-50 {
+.a-anim-txts .anim-txt.anim-txt-50 {
   -webkit-transition: 0.65s 3.125s;
   transition: 0.65s 3.125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-51 {
+.a-anim-txts .anim-txt.anim-txt-51 {
   -webkit-transition: 0.65s 3.1875s;
   transition: 0.65s 3.1875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-52 {
+.a-anim-txts .anim-txt.anim-txt-52 {
   -webkit-transition: 0.65s 3.25s;
   transition: 0.65s 3.25s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-53 {
+.a-anim-txts .anim-txt.anim-txt-53 {
   -webkit-transition: 0.65s 3.3125s;
   transition: 0.65s 3.3125s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-54 {
+.a-anim-txts .anim-txt.anim-txt-54 {
   -webkit-transition: 0.65s 3.375s;
   transition: 0.65s 3.375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-55 {
+.a-anim-txts .anim-txt.anim-txt-55 {
   -webkit-transition: 0.65s 3.4375s;
   transition: 0.65s 3.4375s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-56 {
+.a-anim-txts .anim-txt.anim-txt-56 {
   -webkit-transition: 0.65s 3.5s;
   transition: 0.65s 3.5s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-57 {
+.a-anim-txts .anim-txt.anim-txt-57 {
   -webkit-transition: 0.65s 3.5625s;
   transition: 0.65s 3.5625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-58 {
+.a-anim-txts .anim-txt.anim-txt-58 {
   -webkit-transition: 0.65s 3.625s;
   transition: 0.65s 3.625s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-59 {
+.a-anim-txts .anim-txt.anim-txt-59 {
   -webkit-transition: 0.65s 3.6875s;
   transition: 0.65s 3.6875s;
 }
-.a-anim-Txts .anim-Txt.anim-Txt-60 {
+.a-anim-txts .anim-txt.anim-txt-60 {
   -webkit-transition: 0.65s 3.75s;
   transition: 0.65s 3.75s;
 }
-.a-anim-Txts.active .anim-Txt {
+.a-anim-txts.active .anim-txt {
   opacity: 1;
   -webkit-transform: translate(0, 0) skewX(0deg) scale(1, 1);
   -ms-transform: translate(0, 0) skewX(0deg) scale(1, 1);
@@ -3532,16 +3532,16 @@ body.transitionStop * {
 }
 
 /*----------------------------------------------------
-  slideBoxA
+  slide-box-A
 */
 /*----------------------------------------------------
   使用方法：
 
-  <div class="as a-slideBoxA">
+  <div class="as a-slide-box-A">
     <img src="./img/sample.jpg" alt="" />
   </div>
 ----------------------------------------------------*/
-.a-slideBoxA {
+.a-slide-box-A {
   overflow: hidden;
   opacity: 1;
   position: relative;
@@ -3554,7 +3554,7 @@ body.transitionStop * {
   -webkit-transition: 0.65s;
   transition: 0.65s;
 }
-.a-slideBoxA:after {
+.a-slide-box-A:after {
   background: #bbb;
   /* Old browsers */
   content: "";
@@ -3568,7 +3568,7 @@ body.transitionStop * {
   -webkit-transition: 0.65s 0.65s;
   transition: 0.65s 0.65s;
 }
-.a-slideBoxA img {
+.a-slide-box-A img {
   -webkit-transition: 0.65s 0.65s;
   transition: 0.65s 0.65s;
   -webkit-transform: scale(1.5, 1.5);
@@ -3578,7 +3578,7 @@ body.transitionStop * {
   -ms-transform-origin: center center;
       transform-origin: center center;
 }
-.a-slideBoxA.a-slideBoxA-t {
+.a-slide-box-A.a-slide-box-A--t {
   -webkit-transform: scale(1, 0);
   -ms-transform: scale(1, 0);
       transform: scale(1, 0);
@@ -3586,7 +3586,7 @@ body.transitionStop * {
   -ms-transform-origin: top center;
       transform-origin: top center;
 }
-.a-slideBoxA.a-slideBoxA-b {
+.a-slide-box-A.a-slide-box-A--b {
   -webkit-transform: scale(1, 0);
   -ms-transform: scale(1, 0);
       transform: scale(1, 0);
@@ -3594,7 +3594,7 @@ body.transitionStop * {
   -ms-transform-origin: bottom center;
       transform-origin: bottom center;
 }
-.a-slideBoxA.a-slideBoxA-l {
+.a-slide-box-A.a-slide-box-A--l {
   -webkit-transform: scale(0, 1);
   -ms-transform: scale(0, 1);
       transform: scale(0, 1);
@@ -3602,7 +3602,7 @@ body.transitionStop * {
   -ms-transform-origin: left center;
       transform-origin: left center;
 }
-.a-slideBoxA.a-slideBoxA-r {
+.a-slide-box-A.a-slide-box-A--r {
   -webkit-transform: scale(0, 1);
   -ms-transform: scale(0, 1);
       transform: scale(0, 1);
@@ -3610,39 +3610,39 @@ body.transitionStop * {
   -ms-transform-origin: right center;
       transform-origin: right center;
 }
-.a-slideBoxA.active {
+.a-slide-box-A.active {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
       transform: scale(1, 1);
 }
-.a-slideBoxA.active:after {
+.a-slide-box-A.active:after {
   opacity: 0;
 }
-.a-slideBoxA.active img {
+.a-slide-box-A.active img {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
       transform: scale(1, 1);
 }
 
 /*----------------------------------------------------
-  slideBoxB
+  slide-box-B
 */
 /*----------------------------------------------------
   使用方法：
 
-  <div class="as a-slideBoxB">
-    <div class="slideBoxB_bg">
+  <div class="as a-slide-box-B">
+    <div class="slide-box-B__bg">
       <img src="" alt="">
     </div>
   </div>
 ----------------------------------------------------*/
-.a-slideBoxB {
+.a-slide-box-B {
   display: block;
 }
-.a-slideBoxB img {
+.a-slide-box-B img {
   vertical-align: middle;
 }
-.a-slideBoxB .slideBoxB_bg {
+.a-slide-box-B .slide-box-B__bg {
   background: #fff;
   display: inline-block;
   position: relative;
@@ -3651,7 +3651,7 @@ body.transitionStop * {
       transform-origin: right center;
   overflow: hidden;
 }
-.a-slideBoxB .slideBoxB_bg img {
+.a-slide-box-B .slide-box-B__bg img {
   opacity: 0;
   -webkit-transform: scale(1.1, 1.1);
   -ms-transform: scale(1.1, 1.1);
@@ -3662,7 +3662,7 @@ body.transitionStop * {
   -webkit-transition: all 0.65s;
   transition: all 0.65s;
 }
-.a-slideBoxB .slideBoxB_bg:after {
+.a-slide-box-B .slide-box-B__bg:after {
   background: #fff;
   content: "";
   position: absolute;
@@ -3678,77 +3678,77 @@ body.transitionStop * {
   -webkit-transition: all 0.65s;
   transition: all 0.65s;
 }
-.a-slideBoxB.a-slideBoxB-t .slideBoxB_bg {
+.a-slide-box-B.a-slide-box-B--t .slide-box-B__bg {
   -webkit-transform-origin: bottom center;
   -ms-transform-origin: bottom center;
       transform-origin: bottom center;
 }
-.a-slideBoxB.a-slideBoxB-t .slideBoxB_bg img {
+.a-slide-box-B.a-slide-box-B--t .slide-box-B__bg img {
   -webkit-transform-origin: bottom center;
   -ms-transform-origin: bottom center;
       transform-origin: bottom center;
 }
-.a-slideBoxB.a-slideBoxB-t .slideBoxB_bg:after {
+.a-slide-box-B.a-slide-box-B--t .slide-box-B__bg:after {
   margin: 100% 0 0 0;
   -webkit-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
       transform: translate(0, -100%);
 }
-.a-slideBoxB.a-slideBoxB-b .slideBoxB_bg {
+.a-slide-box-B.a-slide-box-B--b .slide-box-B__bg {
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
       transform-origin: top center;
 }
-.a-slideBoxB.a-slideBoxB-b .slideBoxB_bg img {
+.a-slide-box-B.a-slide-box-B--b .slide-box-B__bg img {
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
       transform-origin: top center;
 }
-.a-slideBoxB.a-slideBoxB-b .slideBoxB_bg:after {
+.a-slide-box-B.a-slide-box-B--b .slide-box-B__bg:after {
   margin: -100% 0 0 0;
   -webkit-transform: translate(0, 100%);
   -ms-transform: translate(0, 100%);
       transform: translate(0, 100%);
 }
-.a-slideBoxB.a-slideBoxB-l .slideBoxB_bg {
+.a-slide-box-B.a-slide-box-B--l .slide-box-B__bg {
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
       transform-origin: right center;
 }
-.a-slideBoxB.a-slideBoxB-l .slideBoxB_bg img {
+.a-slide-box-B.a-slide-box-B--l .slide-box-B__bg img {
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
       transform-origin: right center;
 }
-.a-slideBoxB.a-slideBoxB-l .slideBoxB_bg:after {
+.a-slide-box-B.a-slide-box-B--l .slide-box-B__bg:after {
   margin: 0 0 0 100%;
   -webkit-transform: translate(-100%, 0);
   -ms-transform: translate(-100%, 0);
       transform: translate(-100%, 0);
 }
-.a-slideBoxB.a-slideBoxB-r .slideBoxB_bg {
+.a-slide-box-B.a-slide-box-B--r .slide-box-B__bg {
   -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
       transform-origin: left center;
 }
-.a-slideBoxB.a-slideBoxB-r .slideBoxB_bg img {
+.a-slide-box-B.a-slide-box-B--r .slide-box-B__bg img {
   -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
       transform-origin: left center;
 }
-.a-slideBoxB.a-slideBoxB-r .slideBoxB_bg:after {
+.a-slide-box-B.a-slide-box-B--r .slide-box-B__bg:after {
   margin: 0 0 0 -100%;
   -webkit-transform: translate(100%, 0);
   -ms-transform: translate(100%, 0);
       transform: translate(100%, 0);
 }
-.a-slideBoxB.active .slideBoxB_bg img {
+.a-slide-box-B.active .slide-box-B__bg img {
   opacity: 1;
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
       transform: scale(1, 1);
 }
-.a-slideBoxB.active .slideBoxB_bg:after {
+.a-slide-box-B.active .slide-box-B__bg:after {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
       transform: translate(0, 0);
@@ -3757,10 +3757,10 @@ body.transitionStop * {
 /*----------------------------------------------------
   スライダー
 ----------------------------------------------------*/
-.slideGallery {
+.slide-gallery {
   overflow: hidden;
 }
-.slideGallery .slideGallery_inner {
+.slide-gallery .slide-gallery__inner {
   height: 220px;
   width: 3840px;
   -webkit-animation: slide 60s linear infinite;
