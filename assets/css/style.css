@@ -3243,7 +3243,7 @@ img {
 /*----------------------------------------------------
   リサイズ時のtransition停止
 ----------------------------------------------------*/
-body.transitionStop * {
+body.transition-stop * {
   -webkit-transition: none !important;
   transition: none !important;
 }

@@ -3,7 +3,7 @@
 /*----------------------------------------------------
   リサイズ時のtransition停止
 ----------------------------------------------------*/
-body.transitionStop * {
+body.transition-stop * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;

@@ -48,14 +48,14 @@
     var rsTimer = false,
         $_body = $("body");
     $(window).on('resize', function () {
-      $_body.addClass("transitionStop");
+      $_body.addClass("transition-stop");
 
       if (rsTimer !== false) {
         clearTimeout(rsTimer);
       }
 
       rsTimer = setTimeout(function () {
-        $_body.removeClass("transitionStop");
+        $_body.removeClass("transition-stop");
       }, 100);
     });
   } // スマホメニュー
