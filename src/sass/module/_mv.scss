@@ -2,14 +2,14 @@
 
 // mv
 .mv {
-	.mv_inner {
+	.mv__inner {
 	}
 	@include max-screen($bp-tab) {
-		.mv_inner {
+		.mv__inner {
 		}
 	}
 	@include max-screen($bp-sp) {
-		.mv_inner {
+		.mv__inner {
 		}
 	}
 }
