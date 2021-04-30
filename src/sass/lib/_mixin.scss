@@ -19,16 +19,12 @@
 	レスポンシブ関連
 --------------------------*/
 @mixin max-screen($break-point) {
-  @if $responsive == 1 {
-    @media screen and (max-width: $break-point) {
-      @content;
-    }
+  @media screen and (max-width: $break-point) {
+    @content;
   }
 }
 @mixin min-screen($break-point) {
-  @if $responsive == 1 {
-    @media screen and (min-width: $break-point) {
-      @content;
-    }
+  @media screen and (min-width: $break-point) {
+    @content;
   }
 }
