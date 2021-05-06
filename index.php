@@ -21,8 +21,9 @@ $Timestamp = time();
   <link rel="stylesheet" href="/assets/css/style.css?<?php echo $Timestamp; ?>">
 
   <script src="/assets/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
-  <script src="/assets/js/jquery-anchorScroll.js"></script>
-  <script src="/assets/js/common.js?<?php echo $Timestamp; ?>"></script>
+  <script src="/assets/js/jquery-anchorScroll.js" defer></script>
+  <script src="/assets/js/lazysizes.min.js" defer></script>
+  <script src="/assets/js/common.js?<?php echo $Timestamp; ?>" defer></script>
 
   <!--[if lt IE 9]>
 	<script src="/assets/js/html5shiv.js"></script>
