@@ -1,14 +1,16 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 // footer
 .footer {
 	.footer__inner {
 	}
-	@include max-screen($bp-tab) {
+	@include g.max-screen(g.$bp-tab) {
 		.footer__inner {
 		}
 	}
-	@include max-screen($bp-sp) {
+	@include g.max-screen(g.$bp-sp) {
 		.footer__inner {
 		}
 	}

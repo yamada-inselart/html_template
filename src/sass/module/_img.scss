@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 // img-responsive (画像レスポンシブ)
 .img-responsive {
   // 画像の比率は1:1
@@ -29,7 +31,7 @@
     max-height: #{$img-h}px;
     width: 100%;
   }
-  @include max-screen($bp-tab) {
+  @include g.max-screen(g.$bp-tab) {
     &__inner {
       height: auto;
       padding-bottom: 75%;
@@ -42,7 +44,7 @@
       transform: translate(-50%, -50%);
     }
   }
-  @include max-screen($bp-sp) {
+  @include g.max-screen(g.$bp-sp) {
     margin-bottom: 30px;
     &__inner {
       padding-bottom: 56.25%;

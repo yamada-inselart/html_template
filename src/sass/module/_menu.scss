@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 // スマートフォンメニュー
 .menu-sp {
   $background: #333;
@@ -19,7 +21,7 @@
     //仮
     height: 400px;
   }
-  @include max-screen($bp-sp) {
+  @include g.max-screen(g.$bp-sp) {
     $top: 60px;
     
     top: $top;

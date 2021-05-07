@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 /*----------------------------------------------------
 
 	汎用クラスをまとめたファイルです。
@@ -21,7 +23,7 @@
 .u-align-r {
   text-align: right !important;
 }
-@include max-screen($bp-tab) {
+@include g.max-screen(g.$bp-tab) {
   .u-align-l-tab {
     text-align: left !important;
   }
@@ -32,7 +34,7 @@
     text-align: right !important;
   }
 }
-@include max-screen($bp-sp) {
+@include g.max-screen(g.$bp-sp) {
   .u-align-l-sp {
     text-align: left !important;
   }
@@ -82,7 +84,7 @@ $i: 120; // padding marginの最大値
 
 $i: 120; // padding marginの最大値
 @while $i >= 0 {
-  @include max-screen($bp-tab) {
+  @include g.max-screen(g.$bp-tab) {
     .u-mt#{$i}-tab {
       margin-top: #{$i}px !important;
     }
@@ -118,7 +120,7 @@ $i: 120; // padding marginの最大値
 $i: 120; // padding marginの最大値
 @while $i >= 0 {
   // スマホ用
-  @include max-screen($bp-sp) {
+  @include g.max-screen(g.$bp-sp) {
     .u-mt#{$i}-sp {
       margin-top: #{$i}px !important;
     }
