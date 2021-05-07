@@ -25,10 +25,6 @@ $Timestamp = time();
   <script src="/assets/js/lazysizes.min.js" defer></script>
   <script src="/assets/js/common.js?<?php echo $Timestamp; ?>" defer></script>
 
-  <!--[if lt IE 9]>
-	<script src="/assets/js/html5shiv.js"></script>
-  <![endif]-->
-
 </head>
 
 <body>
