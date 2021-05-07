@@ -19,6 +19,7 @@
     <!-- モバイル用メニュー -->
     <div id="js-responsive-menu" class="menu-sp">
         <div class="menu-sp__inner">
+            <div class="menu-sp__body"></div>
         </div>
     </div>
     <!-- モバイル用メニュー END -->

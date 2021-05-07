@@ -2,8 +2,8 @@
 
 // スマートフォンメニュー
 .menu-sp {
-  $background: #fff;
-  $top: 105px;
+  $background: #333;
+  $top: 80px;
 
   display: none;
   width: 100%;
@@ -13,13 +13,14 @@
   top: $top;
   .menu-sp__inner {
     background: $background;
+    overflow: scroll;
     margin-left: auto;
 
     //仮
     height: 400px;
   }
   @include max-screen($bp-sp) {
-    $top: 80px;
+    $top: 60px;
     
     top: $top;
   }
