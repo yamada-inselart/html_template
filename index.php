@@ -17,7 +17,6 @@ $Timestamp = time();
   require_once($Root . "/assets/parts/ogp.php");
   echo ogpSouceCode('');
   ?>
-  <link rel="stylesheet" href="/assets/fonts/font_awesome/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?<?php echo $Timestamp; ?>">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- 最新版があれば変更 ※~IE8対応の場合は、jQuery1.xの最新版（2021年5月現在 1.12.4） -->
