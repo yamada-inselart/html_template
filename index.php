@@ -42,7 +42,7 @@ $Timestamp = time();
     <section class="main">
 
       <!-- Section01 -->
-      <section class="top-sec top-sec-01">
+      <section class="top-sec top-sec--01">
         <div class="top-sec__inner">
 
         </div>
