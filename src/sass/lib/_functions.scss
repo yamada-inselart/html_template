@@ -8,3 +8,13 @@
 	別ファイルを生成し、追加してください。
 
 ----------------------------------------------------*/
+
+@function vw-tab($size, $viewport:768){
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@function vw-sp($size, $viewport:320){
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}

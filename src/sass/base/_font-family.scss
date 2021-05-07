@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*----------------------------------------------------
+
+	font-familyの一覧ファイルです。
+	基本変更することはありません。
+
+----------------------------------------------------*/
+
+/*----------------------------------------------------
+  Noto Sans
+*/
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/noto_sans/NotoSansCJKjp-Light.woff") format("woff"),
+    url("../fonts/noto_sans/NotoSansCJKjp-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/noto_sans/NotoSansCJKjp-Regular.woff") format("woff"),
+    url("../fonts/noto_sans/NotoSansCJKjp-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/noto_sans/NotoSansCJKjp-Bold.woff") format("woff"),
+    url("../fonts/noto_sans/NotoSansCJKjp-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Noto Sans Japanese";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/noto_sans/NotoSansCJKjp-Black.woff") format("woff"),
+    url("../fonts/noto_sans/NotoSansCJKjp-Black.ttf") format("truetype");
+}

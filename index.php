@@ -2,9 +2,6 @@
 $Root = $_SERVER['DOCUMENT_ROOT'];
 $Timestamp = time();
 
-// 初めにココを設定
-$Page = 'top';
-
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -20,37 +17,33 @@ $Page = 'top';
   require_once($Root . "/assets/parts/ogp.php");
   echo ogpSouceCode('');
   ?>
-  <link rel="stylesheet" href="/assets/fonts/font_awesome/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?<?php echo $Timestamp; ?>">
 
-  <script src="/assets/js/jquery.min.js"></script><!-- 最新版があればダウンロード ※~IE8対応の場合は、jQuery1.xの最新版 -->
-  <script src="/assets/js/jquery-anchorScroll.js"></script>
-  <script src="/assets/js/common.js?<?php echo $Timestamp; ?>"></script>
-
-  <!--[if lt IE 9]>
-	<script src="/assets/js/html5shiv.js"></script>
-  <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- 最新版があれば変更 ※~IE8対応の場合は、jQuery1.xの最新版（2021年5月現在 1.12.4） -->
+  <script src="/assets/js/jquery-anchorScroll.js" defer></script>
+  <script src="/assets/js/lazysizes.min.js" defer></script>
+  <script src="/assets/js/common.js?<?php echo $Timestamp; ?>" defer></script>
 
 </head>
 
 <body>
-  <div class="wrap wrap-<?php echo $Page; ?>">
+  <div class="wrap">
     <?php require_once($Root . "/assets/parts/header.php"); ?>
 
     <!-- MainVisual -->
     <div class="mv">
-      <div class="mv_inner">
+      <div class="mv__inner">
 
       </div>
     </div>
     <!-- MainVisual END -->
 
     <!-- Main -->
-    <section class="main main-<?php echo $Page; ?>">
+    <section class="main">
 
       <!-- Section01 -->
-      <section class="topSec topSec-01">
-        <div class="topSec_inner">
+      <section class="top-sec top-sec--01">
+        <div class="top-sec__inner">
 
         </div>
       </section>

@@ -1,7 +1,9 @@
 @charset "utf-8";
 
-// imgResponsive (画像レスポンシブ)
-.imgResponsive {
+@use "../lib/global" as g;
+
+// img-responsive (画像レスポンシブ)
+.img-responsive {
   // 画像の比率は1:1
   $box-h: 315; // PC用サイズ
   $box-w: 420; // PC用サイズ
@@ -10,16 +12,16 @@
 
   margin-bottom: 15px;
   width: #{$box-w}px;
-  &_inner {
+  &__inner {
     overflow: hidden;
     position: relative;
     height: #{$box-h}px;
   }
-  &_caption {
+  &__caption {
     display: block;
     margin: 5px　0;
   }
-  &_img {
+  &__img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,12 +31,12 @@
     max-height: #{$img-h}px;
     width: 100%;
   }
-  @include max-screen($bp-tab) {
-    &_inner {
+  @include g.max-screen(g.$bp-tab) {
+    &__inner {
       height: auto;
       padding-bottom: 75%;
     }
-    &_img {
+    &__img {
       margin-top: 0;
       margin-left: 0;
       -webkit-transform: translate(-50%, -50%);
@@ -42,9 +44,9 @@
       transform: translate(-50%, -50%);
     }
   }
-  @include max-screen($bp-sp) {
+  @include g.max-screen(g.$bp-sp) {
     margin-bottom: 30px;
-    &_inner {
+    &__inner {
       padding-bottom: 56.25%;
     }
   }

@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* Scss Document */
+@use "../lib/global" as g;
 
 /*------------------------------
 	ナビゲーション
@@ -153,18 +153,26 @@
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 
   ul {
     margin: 1em 0;
     padding-left: 40px;
     list-style-type: disc;
+    li {
+      list-style-type: disc;
+    }
   }
 
   ol {
     margin: 1em 0;
     padding-left: 40px;
     list-style-type: decimal;
+    li {
+      list-style-type: decimal;
+    }
   }
 
   blockquote {
@@ -231,43 +239,83 @@
     word-wrap: break-word; /* Internet Explorer 5.5+ */
   }
 
+  //テーブル
+  table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    th,
+    td {
+      padding: 10px;
+      padding: 1rem;
+    }
+    th {
+      background: #eee;
+      text-align: left;
+    }
+    td {
+      background: #f9f9f9;
+    }
+  }
+
   // 見出しのスタイル
+  h1 {
+    border-bottom: 2px dotted #c0c0c0;
+    font-size: 32px;
+    font-size: 3.2rem;
+    margin: 40px 0 30px;
+    margin: 4rem 0 3rem;
+    padding-bottom: 10px;
+    padding-bottom: 1rem;
+    @include g.max-screen(g.$bp-sp) {
+      font-size: 21px;
+    }
+  }
   h2 {
-    border-bottom: solid 1px #333;
-    color: #333;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 5px 0;
-    margin: 30px 0;
-  }
-  h3 {
-    font-size: 21px;
-    line-height: 120%;
-    margin: 30px 0;
-    font-weight: 700;
-    line-height: 120%;
-    padding: 10px 14px;
-    background: #f3f3f3;
-    border-bottom: solid 1px #333;
-  }
-  h4 {
-    border-left: solid 4px #333;
-    border-bottom: solid 1px #333;
-    font-size: 18px;
-    padding: 5px 10px;
-    margin: 30px 0;
-  }
-}
-@include max-screen($bp-sp) {
-  .wp-content {
-    h2 {
+    border-bottom: 2px dotted #c0c0c0;
+    font-size: 28px;
+    font-size: 2.8rem;
+    margin: 40px 0 30px;
+    margin: 4rem 0 3rem;
+    padding-bottom: 10px;
+    padding-bottom: 1rem;
+    @include g.max-screen(g.$bp-sp) {
       font-size: 18px;
     }
-    h3 {
+  }
+  h3 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    margin: 30px 0 20px;
+    margin: 3rem 0 2rem;
+    @include g.max-screen(g.$bp-sp) {
+      font-size: 18px;
+    }
+  }
+  h4 {
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin: 30px 0 20px;
+    margin: 3rem 0 2rem;
+    @include g.max-screen(g.$bp-sp) {
       font-size: 16px;
     }
-    h4 {
+  }
+  h5 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    margin: 2rem 0 1rem;
+    @include g.max-screen(g.$bp-sp) {
       font-size: 14px;
+    }
+  }
+  h6 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 20px 0 10px;
+    margin: 2rem 0 1rem;
+    @include g.max-screen(g.$bp-sp) {
+      font-size: 13px;
     }
   }
 }

@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 /*----------------------------------------------------
 
 	レイアウト設定のファイルです。
@@ -13,11 +15,11 @@
 
 .l-inner {
   margin: 0 auto;
-  width: $inner-width;
-  @include max-screen($bp-tab) {
+  width: g.$inner-width;
+  @include g.max-screen(g.$bp-tab) {
     width: 95%;
   }
-  @include max-screen($bp-sp) {
+  @include g.max-screen(g.$bp-sp) {
     max-width: 480px;
   }
 }
@@ -27,7 +29,10 @@
 }
 
 .l-pos-center {
-  @include translate-center();
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .l-clearfix:after {

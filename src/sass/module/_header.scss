@@ -1,15 +1,17 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 // header
 .header {
-	.header_inner {
+	.header__inner {
 	}
-	@include max-screen($bp-tab) {
-		.header_inner {
+	@include g.max-screen(g.$bp-tab) {
+		.header__inner {
 		}
 	}
-	@include max-screen($bp-sp) {
-		.header_inner {
+	@include g.max-screen(g.$bp-sp) {
+		.header__inner {
 		}
 	}
 }

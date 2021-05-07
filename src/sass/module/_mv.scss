@@ -1,19 +1,21 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 // mv
 .mv {
-	.mv_inner {
+	.mv__inner {
 	}
-	@include max-screen($bp-tab) {
-		.mv_inner {
+	@include g.max-screen(g.$bp-tab) {
+		.mv__inner {
 		}
 	}
-	@include max-screen($bp-sp) {
-		.mv_inner {
+	@include g.max-screen(g.$bp-sp) {
+		.mv__inner {
 		}
 	}
 }
 
-.mvSub {
+.mv-sub {
 	
 }

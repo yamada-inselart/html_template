@@ -48,14 +48,14 @@
     var rsTimer = false,
         $_body = $("body");
     $(window).on('resize', function () {
-      $_body.addClass("transitionStop");
+      $_body.addClass("transition-stop");
 
       if (rsTimer !== false) {
         clearTimeout(rsTimer);
       }
 
       rsTimer = setTimeout(function () {
-        $_body.removeClass("transitionStop");
+        $_body.removeClass("transition-stop");
       }, 100);
     });
   } // スマホメニュー
@@ -64,11 +64,10 @@
   function SpMenuObject() {
     this.initialize();
   }
-
   SpMenuObject.prototype = {
     initialize: function initialize() {
       this.$_menuBtn = $("#js-spMenuBtn");
-      this.$_menu = $("#js-responsive_menu");
+      this.$_menu = $("#js-responsive-menu");
       this.state = 0;
       this.handleEvents();
     },
@@ -86,6 +85,12 @@
           if (self.state === 1) {
             self.close();
           }
+        }
+      });
+      //PCで表示されないように
+      $(window).on("resize", function(e) {
+        if( $(window).width() > 1024 && self.state === 1 ) {
+          self.close();
         }
       });
     },

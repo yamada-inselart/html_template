@@ -1,9 +1,11 @@
 @charset "utf-8";
 
+@use "../lib/global" as g;
+
 // スマートフォンメニュー
-.menuSp {
-  $background: #fff;
-  $top: 105px;
+.menu-sp {
+  $background: #333;
+  $top: 80px;
 
   display: none;
   width: 100%;
@@ -11,16 +13,16 @@
 
   position: fixed;
   top: $top;
-  .menuSp_inner {
+  .menu-sp__inner {
     background: $background;
-    max-width: 420px;
+    overflow: scroll;
     margin-left: auto;
 
     //仮
     height: 400px;
   }
-  @include max-screen($bp-sp) {
-    $top: 80px;
+  @include g.max-screen(g.$bp-sp) {
+    $top: 60px;
     
     top: $top;
   }
