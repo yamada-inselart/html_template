@@ -64,7 +64,6 @@
   function SpMenuObject() {
     this.initialize();
   }
-
   SpMenuObject.prototype = {
     initialize: function initialize() {
       this.$_menuBtn = $("#js-spMenuBtn");
@@ -86,6 +85,12 @@
           if (self.state === 1) {
             self.close();
           }
+        }
+      });
+      //PCで表示されないように
+      $(window).on("resize", function(e) {
+        if( $(window).width() > 1024 && self.state === 1 ) {
+          self.close();
         }
       });
     },
