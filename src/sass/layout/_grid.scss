@@ -15,16 +15,10 @@
 	グリッドシステム
 --------------------------*/
 .l-grid {
-  &:after {
-    clear: both;
-    content: "";
-    display: block;
-  }
+  display: flex;
+  flex-wrap: wrap;
   &_item {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    float: left;
     width: 16.667%;
     &-1 {
       width: 8.33%;
