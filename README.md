@@ -1,5 +1,5 @@
 # html_template
-ver4.0.0
+ver4.0.1
 
 ■タスクランナーコマンド（npmスクリプト） 
 npm run start
