@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@use "sass:math";
 @use "../lib/global" as g;
 
 /*----------------------------------------------------
@@ -180,95 +181,95 @@
     }
   }
   &.l-gutter-s {
-    margin-left: -#{g.$grid-gutterS/2}px;
-    margin-right: -#{g.$grid-gutterS/2}px;
+    margin-left: -#{math.div(g.$grid-gutterS, 2)}px;
+    margin-right: -#{math.div(g.$grid-gutterS, 2)}px;
     > .l-grid_item {
       margin-bottom: #{g.$grid-gutterS}px;
-      padding-left: #{g.$grid-gutterS/2}px;
-      padding-right: #{g.$grid-gutterS/2}px;
+      padding-left: #{math.div(g.$grid-gutterS, 2)}px;
+      padding-right: #{math.div(g.$grid-gutterS, 2)}px;
     }
   }
   &.l-gutter-m {
-    margin-left: -#{g.$grid-gutterM/2}px;
-    margin-right: -#{g.$grid-gutterM/2}px;
+    margin-left: -#{math.div(g.$grid-gutterM, 2)}px;
+    margin-right: -#{math.div(g.$grid-gutterM, 2)}px;
     > .l-grid_item {
       margin-bottom: #{g.$grid-gutterM}px;
-      padding-left: #{g.$grid-gutterM/2}px;
-      padding-right: #{g.$grid-gutterM/2}px;
+      padding-left: #{math.div(g.$grid-gutterM, 2)}px;
+      padding-right: #{math.div(g.$grid-gutterM, 2)}px;
     }
   }
   &.l-gutter-l {
-    margin-left: -#{g.$grid-gutterL/2}px;
-    margin-right: -#{g.$grid-gutterL/2}px;
+    margin-left: -#{math.div(g.$grid-gutterL, 2)}px;
+    margin-right: -#{math.div(g.$grid-gutterL, 2)}px;
     > .l-grid_item {
       margin-bottom: #{g.$grid-gutterL}px;
-      padding-left: #{g.$grid-gutterL/2}px;
-      padding-right: #{g.$grid-gutterL/2}px;
+      padding-left: #{math.div(g.$grid-gutterL, 2)}px;
+      padding-right: #{math.div(g.$grid-gutterL, 2)}px;
     }
   }
   &.l-gutter-s-tab {
     @include g.max-screen(g.$bp-tab) {
-      margin-left: -#{g.$grid-gutterS/2}px;
-      margin-right: -#{g.$grid-gutterS/2}px;
+      margin-left: -#{math.div(g.$grid-gutterS, 2)}px;
+      margin-right: -#{math.div(g.$grid-gutterS, 2)}px;
       > .l-grid_item {
         margin-bottom: #{g.$grid-gutterS}px;
-        padding-left: #{g.$grid-gutterS/2}px;
-        padding-right: #{g.$grid-gutterS/2}px;
+        padding-left: #{math.div(g.$grid-gutterS, 2)}px;
+        padding-right: #{math.div(g.$grid-gutterS, 2)}px;
       }
     }
   }
   &.l-gutter-m-tab {
     @include g.max-screen(g.$bp-tab) {
-      margin-left: -#{g.$grid-gutterM/2}px;
-      margin-right: -#{g.$grid-gutterM/2}px;
+      margin-left: -#{math.div(g.$grid-gutterM, 2)}px;
+      margin-right: -#{math.div(g.$grid-gutterM, 2)}px;
       > .l-grid_item {
         margin-bottom: #{g.$grid-gutterM}px;
-        padding-left: #{g.$grid-gutterM/2}px;
-        padding-right: #{g.$grid-gutterM/2}px;
+        padding-left: #{math.div(g.$grid-gutterM, 2)}px;
+        padding-right: #{math.div(g.$grid-gutterM, 2)}px;
       }
     }
   }
   &.l-gutter-l-tab {
     @include g.max-screen(g.$bp-tab) {
-      margin-left: -#{g.$grid-gutterL/2}px;
-      margin-right: -#{g.$grid-gutterL/2}px;
+      margin-left: -#{math.div(g.$grid-gutterL, 2)}px;
+      margin-right: -#{math.div(g.$grid-gutterL, 2)}px;
       > .l-grid_item {
         margin-bottom: #{g.$grid-gutterL}px;
-        padding-left: #{g.$grid-gutterL/2}px;
-        padding-right: #{g.$grid-gutterL/2}px;
+        padding-left: #{math.div(g.$grid-gutterL, 2)}px;
+        padding-right: #{math.div(g.$grid-gutterL, 2)}px;
       }
     }
   }
   &.l-gutter-s-sp {
     @include g.max-screen(g.$bp-sp) {
-      margin-left: -#{g.$grid-gutterS/2}px;
-      margin-right: -#{g.$grid-gutterS/2}px;
+      margin-left: -#{math.div(g.$grid-gutterS, 2)}px;
+      margin-right: -#{math.div(g.$grid-gutterS, 2)}px;
       > .l-grid_item {
         margin-bottom: #{g.$grid-gutterS}px;
-        padding-left: #{g.$grid-gutterS/2}px;
-        padding-right: #{g.$grid-gutterS/2}px;
+        padding-left: #{math.div(g.$grid-gutterS, 2)}px;
+        padding-right: #{math.div(g.$grid-gutterS, 2)}px;
       }
     }
   }
   &.l-gutter-m-sp {
     @include g.max-screen(g.$bp-sp) {
-      margin-left: -#{g.$grid-gutterM/2}px;
-      margin-right: -#{g.$grid-gutterM/2}px;
+      margin-left: -#{math.div(g.$grid-gutterM, 2)}px;
+      margin-right: -#{math.div(g.$grid-gutterM, 2)}px;
       > .l-grid_item {
         margin-bottom: #{g.$grid-gutterM}px;
-        padding-left: #{g.$grid-gutterM/2}px;
-        padding-right: #{g.$grid-gutterM/2}px;
+        padding-left: #{math.div(g.$grid-gutterM, 2)}px;
+        padding-right: #{math.div(g.$grid-gutterM, 2)}px;
       }
     }
   }
   &.l-gutter-l-sp {
     @include g.max-screen(g.$bp-sp) {
-      margin-left: -#{g.$grid-gutterL/2}px;
-      margin-right: -#{g.$grid-gutterL/2}px;
+      margin-left: -#{math.div(g.$grid-gutterL, 2)}px;
+      margin-right: -#{math.div(g.$grid-gutterL, 2)}px;
       > .l-grid_item {
         margin-bottom: #{g.$grid-gutterL}px;
-        padding-left: #{g.$grid-gutterL/2}px;
-        padding-right: #{g.$grid-gutterL/2}px;
+        padding-left: #{math.div(g.$grid-gutterL, 2)}px;
+        padding-right: #{math.div(g.$grid-gutterL, 2)}px;
       }
     }
   }
