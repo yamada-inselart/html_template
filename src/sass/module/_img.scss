@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @use "../lib/global" as g;
+@use "sass:math";
 
 // img-responsive (画像レスポンシブ)
 .img-responsive {
@@ -26,8 +27,8 @@
     top: 50%;
     left: 50%;
 
-    margin-top: #{-1 * $box-w / 2}px;
-    margin-left: #{-1 * $box-w / 2}px;
+    margin-top: #{math.div(-1 * $box-w, 2)}px;
+    margin-left: #{math.div(-1 * $box-w, 2)}px;
     max-height: #{$img-h}px;
     width: 100%;
   }
