@@ -21,7 +21,6 @@ $Timestamp = time();
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- 最新版があれば変更 ※~IE8対応の場合は、jQuery1.xの最新版（2021年5月現在 1.12.4） -->
   <script src="/assets/js/jquery-anchorScroll.js" defer></script>
-  <script src="/assets/js/lazysizes.min.js" defer></script>
   <script src="/assets/js/common.js?<?php echo $Timestamp; ?>" defer></script>
 
 </head>
