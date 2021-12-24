@@ -1,8 +1,8 @@
 # html_template
-ver4.0.1
+ver4.1.0
 
-■タスクランナーコマンド（npmスクリプト） 
-npm run start
+■コンパイルコマンド
+npm run sass
 
 ※最初に、下記コマンドにてをnpmモジュールをインストールする必要があります。 
 npm install
