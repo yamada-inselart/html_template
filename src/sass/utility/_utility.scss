@@ -13,7 +13,9 @@
 	u-* (utilityのu)という接頭辞をつけることを推奨します。
 
 ----------------------------------------------------*/
-
+.u-txt-bold {
+  font-weight: bold !important;
+}
 .u-txt-xsmall {
   font-size: 10px !important;
   font-size: 1.0rem !important;
