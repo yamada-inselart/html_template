@@ -43,7 +43,7 @@
 .u-ul-style {
 	li {
 		position: relative;
-		padding-left: 1em;
+		padding-left: 1.2em;
 		&::before {
 			content: "・";
 			display: inline-block;
@@ -56,6 +56,13 @@
     li {
       &::before {
         content: "※";
+      }	
+    }
+  }
+  &--disc {
+    li {
+      &::before {
+        content: "●";
       }	
     }
   }
