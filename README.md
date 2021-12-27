@@ -1,5 +1,5 @@
 # html_template
-ver4.1.1
+ver4.2.0
 
 ■コンパイルコマンド
 npm run sass
