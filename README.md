@@ -1,5 +1,14 @@
 # html_template
-ver4.2.0
+ver4.2.1
+
+ver4.0.0より、SassのコンパイラがDartSassになりました。※node-sass（LibSass）が非推奨となったため
+名前空間の利用が必要となり、グローバル変数・汎用Mixin等には g.$●●●● でアクセスします。
+
+例：
+@include max-screen($bp-sp) {} // node-sass（LibSass）
+↓
+@include g.max-screen(g.$bp-sp) {} // DartSass
+
 
 ■コンパイルコマンド
 npm run sass
